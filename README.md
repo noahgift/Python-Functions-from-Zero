@@ -35,3 +35,17 @@ You can [read this sample project](https://github.com/noahgift/container-from-sc
 #### Pull it
 
 `docker pull noahgift/cli-aws`
+
+### Serverless
+
+```python
+def lambda_handler(event, context):
+    print(f"This is the event {event}")
+    if event["name"] == "Marco":
+        return "Polo"
+    return "No!"
+```
+
+`aws lambda invoke --function-name <MyFunction> \
+    --payload '{"name": "Bob" }' out.txt`    
+
