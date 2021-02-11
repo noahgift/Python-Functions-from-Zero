@@ -49,3 +49,6 @@ def lambda_handler(event, context):
 `aws lambda invoke --function-name <MyFunction> \
     --payload '{"name": "Bob" }' out.txt`    
 
+### Deploy to A Container as a Service
+
+https://github.com/noahgift/cloudrun-flask
