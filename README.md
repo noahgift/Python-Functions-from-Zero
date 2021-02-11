@@ -18,3 +18,20 @@ this is a repo for building Python functions from Zero
 ### Test project
 
 `make lint && make test`
+
+### Containerize this project
+
+You can [read this sample project](https://github.com/noahgift/container-from-scratch-python)
+
+#### Build
+
+`docker build --tag=cli-aws .`
+
+#### Run
+
+`docker run -it cli-aws python cli.py --color "Red"`
+
+
+#### Pull it
+
+`docker pull noahgift/cli-aws`
