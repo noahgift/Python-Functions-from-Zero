@@ -10,3 +10,11 @@ this is a repo for building Python functions from Zero
 * Create a virtualenv: `virtualenv ~/.python-functions-zero`
 
 * Source it:  `source ~/.python-functions-zero/bin/activate`
+
+### Run CLI
+
+` ./cli.py  --color "red"`
+
+### Test project
+
+`make lint && make test`
